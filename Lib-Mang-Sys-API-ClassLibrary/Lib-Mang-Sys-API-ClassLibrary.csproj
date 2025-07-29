@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Lib_Mang_Sys_API_ClassLibrary</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="LibraryManagementSystemClassLibrary">
+      <HintPath>..\..\Proc 3\LibraryManagementSystem2\LibraryManagementSystemClassLibrary\obj\Debug\LibraryManagementSystemClassLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

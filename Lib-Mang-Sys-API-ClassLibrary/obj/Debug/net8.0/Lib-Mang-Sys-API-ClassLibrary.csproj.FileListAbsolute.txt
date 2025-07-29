@@ -1,0 +1,15 @@
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\bin\Debug\net8.0\Lib-Mang-Sys-API-ClassLibrary.deps.json
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\bin\Debug\net8.0\Lib-Mang-Sys-API-ClassLibrary.dll
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\bin\Debug\net8.0\Lib-Mang-Sys-API-ClassLibrary.pdb
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\bin\Debug\net8.0\LibraryManagementSystemClassLibrary.dll
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\bin\Debug\net8.0\LibraryManagementSystemClassLibrary.pdb
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\obj\Debug\net8.0\Lib-Mang-Sys-API-ClassLibrary.csproj.AssemblyReference.cache
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\obj\Debug\net8.0\Lib-Mang-Sys-API-ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\obj\Debug\net8.0\Lib-Mang-Sys-API-ClassLibrary.AssemblyInfoInputs.cache
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\obj\Debug\net8.0\Lib-Mang-Sys-API-ClassLibrary.AssemblyInfo.cs
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\obj\Debug\net8.0\Lib-Mang-Sys-API-ClassLibrary.csproj.CoreCompileInputs.cache
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\obj\Debug\net8.0\Lib-Mang.AA2171BF.Up2Date
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\obj\Debug\net8.0\Lib-Mang-Sys-API-ClassLibrary.dll
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\obj\Debug\net8.0\refint\Lib-Mang-Sys-API-ClassLibrary.dll
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\obj\Debug\net8.0\Lib-Mang-Sys-API-ClassLibrary.pdb
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API-ClassLibrary\obj\Debug\net8.0\ref\Lib-Mang-Sys-API-ClassLibrary.dll
