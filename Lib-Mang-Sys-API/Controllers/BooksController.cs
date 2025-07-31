@@ -43,8 +43,9 @@ namespace Lib_Mang_Sys_API.Controllers
             try
             {
                 Books objBooksDal = new Books();
-                List<BooksModel> bookList = objBooksDal.GetBooksList(model);
-                result = Request.CreateResponse(HttpStatusCode.OK, bookList);
+                //List<BooksModel> bookList = objBooksDal.GetBooksList(model);
+                model.Books = objBooksDal.GetBooksList(model);
+                result = Request.CreateResponse(HttpStatusCode.OK, model);
             }
             catch (Exception ex)
             {
