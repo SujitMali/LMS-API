@@ -185,3 +185,5 @@ C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\obj\Debug\Lib-Mang-Sys-API.cspro
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\obj\Debug\Lib-Mang.73F6AEA0.Up2Date
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\obj\Debug\Lib-Mang-Sys-API.dll
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\obj\Debug\Lib-Mang-Sys-API.pdb
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Library-Mangament-System-API-ClassLibrary.dll
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Library-Mangament-System-API-ClassLibrary.pdb

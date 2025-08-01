@@ -6,12 +6,13 @@ using System.Reflection;
 using System.Web.Http;
 using System.Web.Http.Results;
 using System.Web.Routing;
-using LibraryManagementSystemClassLibrary;
-using LibraryManagementSystemClassLibrary.DAL;
+using Library_Mangament_System_API_ClassLibrary.DAL;
+using Library_Mangament_System_API_ClassLibrary.Models;
+//using LibraryManagementSystemClassLibrary;
+//using LibraryManagementSystemClassLibrary.DAL;
 
 namespace Lib_Mang_Sys_API.Controllers
 {
-
     public class BooksController : ApiController
     {
         [HttpGet]
