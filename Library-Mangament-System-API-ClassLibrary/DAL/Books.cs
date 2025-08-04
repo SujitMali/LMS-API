@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Library_Mangament_System_API_ClassLibrary.Models;
 using Microsoft.Practices.EnterpriseLibrary.Data;
 
@@ -240,7 +237,7 @@ namespace Library_Mangament_System_API_ClassLibrary.DAL
                 //else
                 //    db.AddInParameter(cmd, "PublisherId", DbType.Int32, model.PublisherId);
 
-                // PublisherIds (comma-separated string for multi-select)
+                // PublisherIds 
                 if (string.IsNullOrEmpty(model.PublisherIds))
                     db.AddInParameter(cmd, "@PublisherIds", DbType.String, DBNull.Value);
                 else
@@ -268,15 +265,15 @@ namespace Library_Mangament_System_API_ClassLibrary.DAL
                 // SortColumn
                 if (!string.IsNullOrEmpty(model.SortColumn))
                     db.AddInParameter(cmd, "@SortColumn", DbType.String, model.SortColumn);
-                else
-                    db.AddInParameter(cmd, "@SortColumn", DbType.String, "BookName");
+                //else
+                //    db.AddInParameter(cmd, "@SortColumn", DbType.String, DBNull.Value);
 
                 // SortDirection
                 if (!string.IsNullOrEmpty(model.SortDirection))
                     db.AddInParameter(cmd, "@SortDirection", DbType.String, model.SortDirection);
-                else
-                    db.AddInParameter(cmd, "@SortDirection", DbType.String, DBNull.Value);
-
+                //else
+                //    db.AddInParameter(cmd, "@SortDirection", DbType.String, DBNull.Value);
+                
 
                 DataSet ds = db.ExecuteDataSet(cmd);
 

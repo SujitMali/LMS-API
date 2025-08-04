@@ -55,9 +55,12 @@ namespace Library_Mangament_System_API_ClassLibrary.Models
         public List<LanguagesModel> Languages { get; set; }
 
 
+        //public List<bool> PublisherIds { get; set; }
         public string PublisherIds { get; set; }
+
         public int PublisherId { get; set; } = 0;
         public int LanguageId { get; set; } = 0;
+        //public int? LanguageId { get; set; } = null;
         public int PageNumber { get; set; } = 1;
         public int PageSize { get; set; } = 10;
         public int TotalRecords { get; set; }
@@ -74,7 +77,7 @@ namespace Library_Mangament_System_API_ClassLibrary.Models
         public static int SearchPageSize { get; set; }
         public static int SearchIsActive { get; set; }
 
-        
+
 
         //---------------------------------------------------------------
 

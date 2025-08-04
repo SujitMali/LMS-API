@@ -9,3 +9,10 @@ D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-AP
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Library-Mangament-System-API-ClassLibrary\obj\Debug\Library-.D6EEEAB5.Up2Date
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Library-Mangament-System-API-ClassLibrary\obj\Debug\Library-Mangament-System-API-ClassLibrary.dll
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Library-Mangament-System-API-ClassLibrary\obj\Debug\Library-Mangament-System-API-ClassLibrary.pdb
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\Library-Mangament-System-API-ClassLibrary.dll
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\Library-Mangament-System-API-ClassLibrary.pdb
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\obj\Debug\Library-Mangament-System-API-ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\obj\Debug\Library-Mangament-System-API-ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\obj\Debug\Library-.D6EEEAB5.Up2Date
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\obj\Debug\Library-Mangament-System-API-ClassLibrary.dll
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\obj\Debug\Library-Mangament-System-API-ClassLibrary.pdb

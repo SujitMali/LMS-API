@@ -159,12 +159,9 @@ C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\System.Web.WebPages.Deployme
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\System.Web.WebPages.dll
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\System.Web.WebPages.Razor.dll
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\WebGrease.dll
-C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Microsoft.IdentityModel.Tokens.dll
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Microsoft.Practices.ObjectBuilder2.dll
-C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\LibraryManagementSystemClassLibrary.pdb
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Newtonsoft.Json.xml
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\System.Net.Http.Formatting.xml
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\System.Web.Helpers.xml
@@ -178,8 +175,6 @@ C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\System.Web.WebPages.Deployme
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\System.Web.WebPages.Razor.xml
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Antlr3.Runtime.pdb
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\System.IdentityModel.Tokens.Jwt.xml
-C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Microsoft.IdentityModel.Tokens.xml
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\obj\Debug\Lib-Mang-Sys-API.csproj.AssemblyReference.cache
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\obj\Debug\Lib-Mang-Sys-API.csproj.CoreCompileInputs.cache
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\obj\Debug\Lib-Mang.73F6AEA0.Up2Date
@@ -187,3 +182,5 @@ C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\obj\Debug\Lib-Mang-Sys-API.dll
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\obj\Debug\Lib-Mang-Sys-API.pdb
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Library-Mangament-System-API-ClassLibrary.dll
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Library-Mangament-System-API-ClassLibrary.pdb
+C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Library-Mangament-System-API-ClassLibrary.dll
+C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Library-Mangament-System-API-ClassLibrary.pdb

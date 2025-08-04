@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
-using System.Reflection;
 using System.Web.Http;
-using System.Web.Http.Results;
-using System.Web.Routing;
 using Library_Mangament_System_API_ClassLibrary.DAL;
 using Library_Mangament_System_API_ClassLibrary.Models;
-//using LibraryManagementSystemClassLibrary;
-//using LibraryManagementSystemClassLibrary.DAL;
 
 namespace Lib_Mang_Sys_API.Controllers
 {
@@ -55,7 +49,46 @@ namespace Lib_Mang_Sys_API.Controllers
 
             }
             return result;
-
         }
+
+
+            [HttpPost]
+            public HttpResponseMessage AddEditBook(BooksModel model)
+            {
+                try
+                {
+                    Books objBookDal = new Books
+                    {
+                        BookId = model.BookId,
+                        BookName = model.BookName,
+                        PublisherId = model.PublisherId,
+                        LanguageId = model.LanguageId,
+                        Cost = model.Cost,
+                        Pages = model.Pages,
+                        TotalQuantity = model.TotalQuantity,
+                        AvailableQuantity = model.AvailableQuantity,
+                        IsActive = model.IsActive,
+                        CreatedBy = model.CreatedBy
+                    };
+
+                    bool isSuccess = objBookDal.Save();
+
+                    if (isSuccess && objBookDal.BookId > 0)
+                    {
+                        string msg = model.BookId == 0 ? "Book inserted successfully." : "Book updated successfully.";
+                        return Request.CreateResponse(HttpStatusCode.OK, new { message = msg });
+                    }
+                    else
+                    {
+                        return Request.CreateResponse(HttpStatusCode.BadRequest, new { message = "Book Operation Failed." });
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Errors.LogErrorToFile(ex);
+                    return Request.CreateResponse(HttpStatusCode.InternalServerError, new { message = "Something went wrong." });
+                }
+        }
+
     }
 }
