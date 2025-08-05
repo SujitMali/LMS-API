@@ -60,6 +60,7 @@ namespace Lib_Mang_Sys_API.Controllers
         [HttpPost]
         public HttpResponseMessage AddEditBook(BooksModel model)
         {
+
             try
             {
                 Books objBookDal = new Books
@@ -132,6 +133,24 @@ namespace Lib_Mang_Sys_API.Controllers
             return result;
         }
 
+        [HttpPost]
+        public HttpResponseMessage DeleteBook(BooksModel model)
+        {
+            HttpResponseMessage result = null;
+
+            Books objBooksDal = new Books();
+            objBooksDal.BookId = model.BookId;
+            bool IsSucess = objBooksDal.Delete();
+            if (IsSucess)
+            {
+                result = Request.CreateResponse(HttpStatusCode.OK, new { message = "Book Deleted Sucessfully !" });
+            }
+            else
+            {
+                result = Request.CreateResponse(HttpStatusCode.OK, new { message = "Book Cant be Deleted!" });
+            }
+            return result;
+        }
 
 
     }
