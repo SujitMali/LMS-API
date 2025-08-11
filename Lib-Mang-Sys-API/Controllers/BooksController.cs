@@ -3,8 +3,6 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using Library_Mangament_System_API_ClassLibrary.DAL;
-using Library_Mangament_System_API_ClassLibrary.Models;
-using LibraryManagementSystemClassLibrary;
 using Books = Library_Mangament_System_API_ClassLibrary.DAL.Books;
 using BooksModel = Library_Mangament_System_API_ClassLibrary.Models.BooksModel;
 using Languages = Library_Mangament_System_API_ClassLibrary.DAL.Languages;

@@ -1060,3 +1060,10 @@ StackTrace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exce
    at Library_Mangament_System_API_ClassLibrary.DAL.Books.Insert() in D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Library-Mangament-System-API-ClassLibrary\DAL\Books.cs:line 139
 =================================================================================================
 
+===========================================Exception=============================================
+Date & Time : 8/11/2025 6:37:39 PM
+Message : Object reference not set to an instance of an object.
+Source : Lib-Mang-Sys-API
+StackTrace :    at Lib_Mang_Sys_API.Controllers.BookIssueController.DownloadFile(String filePath, String fileName, Int32 issueId) in D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\Controllers\BookIssueController.cs:line 64
+=================================================================================================
+

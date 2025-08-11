@@ -33,7 +33,7 @@ namespace Library_Mangament_System_API_ClassLibrary.Models
 
         public int? SelectedMemberId { get; set; } = 2;
         public string SelectedBookIds { get; set; }
-        public List<BookIssueDetailViewModel> IssuedBookDetails { get; set; }
+        //public List<BookIssueDetailViewModel> IssuedBookDetails { get; set; }
         public BookIssueModel IssuesList { get; set; }
         public int Quantity { get; set; }
 
