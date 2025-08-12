@@ -90,13 +90,6 @@ namespace Library_Mangament_System_API_ClassLibrary.DAL
                                 };
                             }
 
-                            //issue.BookDetails.Add(new BookIssueDetailViewModel
-                            //{
-                            //    BookId = reader.GetInt32(reader.GetOrdinal("BookId")),
-                            //    BookTitle = reader.GetString(reader.GetOrdinal("BookName")),
-                            //    Quantity = reader.GetInt32(reader.GetOrdinal("Quantity"))
-                            //});
-
                             if (!reader.IsDBNull(reader.GetOrdinal("BookId")))
                             {
                                 issue.BookDetails.Add(new BookIssueDetailViewModel

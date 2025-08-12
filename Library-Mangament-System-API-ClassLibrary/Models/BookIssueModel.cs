@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web;
 
 namespace Library_Mangament_System_API_ClassLibrary.Models
@@ -21,12 +18,16 @@ namespace Library_Mangament_System_API_ClassLibrary.Models
         public int ModifiedBy { get; set; } = 2;
         public DateTime? ModifiedOn { get; set; }
 
+
+
         public List<BookIssueDetailViewModel> BookDetails { get; set; }
         public List<BookIssueModel> issues { get; set; }
+        public BookIssueModel Issue { get; set; }
+
+
         public int PageNumber { get; set; } = 1;
         public int PageSize { get; set; } = 4;
         public int TotalRecords { get; set; }
-
         public List<MembersModel> MembersList { get; set; }
 
         //---------------------------------------------------------------
@@ -39,7 +40,6 @@ namespace Library_Mangament_System_API_ClassLibrary.Models
 
         //---------------------------------------------------------------
         [Required(ErrorMessage = "Please upload at least one file.")]
-        //[FileExtensions(Extensions = "jpg,png,pdf,doc", ErrorMessage = "Only jpg, png, pdf, doc files are allowed.")]
         public List<HttpPostedFileBase> UploadFiles { get; set; }
 
         public List<BookIssueFileDocumentModel> fileListForBookIssueId { get; set; }
