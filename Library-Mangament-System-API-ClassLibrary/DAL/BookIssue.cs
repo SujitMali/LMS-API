@@ -171,7 +171,7 @@ namespace Library_Mangament_System_API_ClassLibrary.DAL
             try
             {
                 DbCommand cmd = db.GetStoredProcCommand("BookIssueInsert");
-                db.AddInParameter(cmd, "@MemberId", DbType.Int32, issue.SelectedMemberId);
+                db.AddInParameter(cmd, "@MemberId", DbType.Int32, issue.MemberId);
                 db.AddInParameter(cmd, "@IssueDate", DbType.DateTime, issue.IssueDate);
                 db.AddInParameter(cmd, "@CreatedBy", DbType.Int32, issue.CreatedBy);
 
@@ -235,7 +235,7 @@ namespace Library_Mangament_System_API_ClassLibrary.DAL
 
                 if (UploadFiles != null)
                 {
-                    string baseVirtualPath = ConfigurationManager.AppSettings["PathForUploadFileWhileBookIssue"];
+                    string baseVirtualPath = ConfigurationManager.AppSettings["PathForUploadFileWhileNewPurchaseOrderCreate"];
                     baseVirtualPath = baseVirtualPath.Replace("{model.IssueId}", IssueId.ToString());
                     string physicalPath = HttpContext.Current.Server.MapPath(baseVirtualPath);
 
@@ -479,7 +479,8 @@ namespace Library_Mangament_System_API_ClassLibrary.DAL
                 dt.Columns.Add("IsActive", typeof(bool));
 
 
-                string baseVirtualPath = ConfigurationManager.AppSettings["PathForUploadFileWhileBookIssue"];
+                string baseVirtualPath = ConfigurationManager.AppSettings["PathForUploadFileWhileNewPurchaseOrderCreate"];
+
                 baseVirtualPath = baseVirtualPath.Replace("{model.IssueId}", model.IssueId.ToString());
                 string physicalPath = HttpContext.Current.Server.MapPath(baseVirtualPath);
 

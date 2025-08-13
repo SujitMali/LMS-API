@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Http;
 using Library_Mangament_System_API_ClassLibrary.DAL;
 using Library_Mangament_System_API_ClassLibrary.Models;
+using Newtonsoft.Json;
 
 namespace Lib_Mang_Sys_API.Controllers
 {
@@ -63,7 +64,6 @@ namespace Lib_Mang_Sys_API.Controllers
         }
 
 
-
         [HttpGet]
         public HttpResponseMessage GetBookIssueForm(int IssueId)
         {
@@ -77,7 +77,7 @@ namespace Lib_Mang_Sys_API.Controllers
                 {
                     objBookIssueDal.IssueId = IssueId;
                     objBookIssueDal.Load();
-                    model.Issue = objBookIssueDal.issue;
+                    model = objBookIssueDal.issue;
                 }
 
                 result = Request.CreateResponse(HttpStatusCode.OK, model);
@@ -92,7 +92,62 @@ namespace Lib_Mang_Sys_API.Controllers
         }
 
 
+        [HttpPost]
+        public IHttpActionResult SaveBookIssue()
+        {
+            try
+            {
+                var httpRequest = HttpContext.Current.Request;
+                var jsonModel = httpRequest["BookIssueJson"];
 
+
+                var model = JsonConvert.DeserializeObject<BookIssueModel>(jsonModel);
+                if (httpRequest.Files.Count > 0)
+                {
+                    for (int i = 0; i < httpRequest.Files.Count; i++)
+                    {
+                        if (model.UploadFiles == null)
+                            model.UploadFiles = new List<HttpPostedFileBase>();
+                        var file = httpRequest.Files[i]; // HttpPostedFile
+                        var wrappedFile = new HttpPostedFileWrapper(file); // wrap in concrete class
+                        model.UploadFiles.Add(wrappedFile);
+                    }
+                }
+
+                 BookIssue objBookIssue = new BookIssue();
+                if (model.IssueId > 0)
+                {
+                    objBookIssue.IssueId = model.IssueId;
+                    objBookIssue.MemberId = model.MemberId;
+                    objBookIssue.DueDate = model.DueDate;
+                    objBookIssue.ReturnDate = model.ReturnDate;
+                    objBookIssue.IsActive = model.IsActive;
+                    objBookIssue.ModifiedBy = model.ModifiedBy;
+                    objBookIssue.BookDetails = model.BookDetails;
+                    objBookIssue.fileListForBookIssueId = model.fileListForBookIssueId;
+                    objBookIssue.UploadFiles = model.UploadFiles;
+                }
+                else
+                {
+                    objBookIssue.issue = model;
+                }
+
+                bool isSuccess = objBookIssue.Save();
+                if(isSuccess && model.IssueId == 0)
+                {
+                    model.IssueId = objBookIssue.IssueId; 
+                    objBookIssue.SaveFilesFromBookIssue(model);
+                }
+
+                return Ok(new { success = isSuccess });
+            }
+            catch (Exception ex)
+            {
+                Errors.LogErrorToDb(ex, 2);
+                Errors.LogErrorToFile(ex);
+                return InternalServerError(ex);
+            }
+        }
 
 
         [HttpGet]
@@ -127,7 +182,6 @@ namespace Lib_Mang_Sys_API.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, "Error while processing the file");
             }
         }
-
     }
 }
 
@@ -139,53 +193,3 @@ namespace Lib_Mang_Sys_API.Controllers
 
 
 
-
-
-
-
-
-//result.Content.Headers.ContentDisposition =
-//    new System.Net.Http.Headers.ContentDispositionHeaderValue("attachment")
-//    {
-//        FileName = fileName
-//    };
-//result.Content.Headers.ContentType =
-//    new System.Net.Http.Headers.MediaTypeHeaderValue(MimeMapping.GetMimeMapping(fileName));
-
-
-
-
-
-
-
-
-
-
-//string physicalPath = (System.Web.HttpContext.Current.Server.MapPath(Path.Combine(basePath, filePath))).Replace("\\", "/");
-//Members objMembersdal = new Members();
-//model.MembersList = objMembersdal.GetMemberList();
-
-//Books objBooksDal = new Books();
-//model.PageSize = int.MaxValue;
-//model.IsActive = true;
-//model.PublisherId = 0;
-//model.LanguageId = 0;
-//model.BookName = null;
-//model.Books=objBooksDal.GetBooksList(model);
-
-//if (model.IssueId > 0)
-//{ 
-//    BookIssue objBookIssueViewDal = new BookIssue();
-
-//    objBookIssueViewDal.IssueId = model.IssueId;
-//    objBookIssueViewDal.Load();
-
-//    BookIssueModel issueDetails = objBookIssueViewDal.issue;
-
-//    model.SelectedMemberId = issueDetails.MemberId;
-//    model.DueDate = issueDetails.DueDate;
-//    model.ReturnDate = issueDetails.ReturnDate;
-//    model.IssuesList = issueDetails;
-//    //model.IssuedBookDetails = issueDetails?.BookDetails;
-//    //model.fileListForBookIssueId = issueDetails?.fileListForBookIssueId;
-//}

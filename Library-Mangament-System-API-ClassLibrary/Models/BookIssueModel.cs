@@ -19,32 +19,22 @@ namespace Library_Mangament_System_API_ClassLibrary.Models
         public DateTime? ModifiedOn { get; set; }
 
 
-
         public List<BookIssueDetailViewModel> BookDetails { get; set; }
+        public List<BookIssueFileDocumentModel> fileListForBookIssueId { get; set; }
+
+        [Required(ErrorMessage = "Please upload at least one file.")]
+        public List<HttpPostedFileBase> UploadFiles { get; set; }
         public List<BookIssueModel> issues { get; set; }
-        public BookIssueModel Issue { get; set; }
 
 
         public int PageNumber { get; set; } = 1;
         public int PageSize { get; set; } = 4;
         public int TotalRecords { get; set; }
-        public List<MembersModel> MembersList { get; set; }
-
-        //---------------------------------------------------------------
-
         public int? SelectedMemberId { get; set; } = 2;
-        public string SelectedBookIds { get; set; }
-        //public List<BookIssueDetailViewModel> IssuedBookDetails { get; set; }
-        public BookIssueModel IssuesList { get; set; }
-        public int Quantity { get; set; }
 
-        //---------------------------------------------------------------
-        [Required(ErrorMessage = "Please upload at least one file.")]
-        public List<HttpPostedFileBase> UploadFiles { get; set; }
 
-        public List<BookIssueFileDocumentModel> fileListForBookIssueId { get; set; }
 
-        //---------------------------------------------------------------
+
     }
 
     public class BookIssueDetailViewModel
@@ -54,3 +44,20 @@ namespace Library_Mangament_System_API_ClassLibrary.Models
         public int Quantity { get; set; }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+//public string SelectedBookIds { get; set; }
+//public BookIssueModel Issue { get; set; }
+//public int Quantity { get; set; }
+//public List<BookIssueDetailViewModel> IssuedBookDetails { get; set; }
+//public BookIssueModel IssuesList { get; set; }
+//public List<MembersModel> MembersList { get; set; }
