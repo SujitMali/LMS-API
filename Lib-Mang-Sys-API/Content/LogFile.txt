@@ -5,3 +5,16 @@ Source : Library-Mangament-System-API-ClassLibrary
 StackTrace :    at Library_Mangament_System_API_ClassLibrary.DAL.BookIssue.SaveFilesFromBookIssue(BookIssueModel model) in D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Library-Mangament-System-API-ClassLibrary\DAL\BookIssue.cs:line 483
 =================================================================================================
 
+===========================================Exception=============================================
+Date & Time : 13-08-2025 21:07:50
+Message : Maximum request length exceeded.
+Source : System.Web
+StackTrace :    at System.Web.HttpRequest.GetEntireRawContent()
+   at System.Web.HttpRequest.GetMultipartContent()
+   at System.Web.HttpRequest.FillInFormCollection()
+   at System.Web.HttpRequest.EnsureForm()
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_Item(String key)
+   at Lib_Mang_Sys_API.Controllers.BookIssueController.SaveBookIssue() in C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\Controllers\BookIssueController.cs:line 101
+=================================================================================================
+
