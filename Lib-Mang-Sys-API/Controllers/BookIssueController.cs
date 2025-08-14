@@ -95,6 +95,8 @@ namespace Lib_Mang_Sys_API.Controllers
         [HttpPost]
         public IHttpActionResult SaveBookIssue()
         {
+            HttpResponseMessage result = null;
+
             try
             {
                 var httpRequest = HttpContext.Current.Request;
@@ -108,13 +110,13 @@ namespace Lib_Mang_Sys_API.Controllers
                     {
                         if (model.UploadFiles == null)
                             model.UploadFiles = new List<HttpPostedFileBase>();
-                        var file = httpRequest.Files[i]; // HttpPostedFile
-                        var wrappedFile = new HttpPostedFileWrapper(file); // wrap in concrete class
+                        var file = httpRequest.Files[i];
+                        var wrappedFile = new HttpPostedFileWrapper(file);
                         model.UploadFiles.Add(wrappedFile);
                     }
                 }
 
-                 BookIssue objBookIssue = new BookIssue();
+                BookIssue objBookIssue = new BookIssue();
                 if (model.IssueId > 0)
                 {
                     objBookIssue.IssueId = model.IssueId;
@@ -133,10 +135,10 @@ namespace Lib_Mang_Sys_API.Controllers
                 }
 
                 bool isSuccess = objBookIssue.Save();
-                if(isSuccess && model.IssueId == 0)
+                if (isSuccess && model.IssueId == 0)
                 {
-                    model.IssueId = objBookIssue.IssueId; 
-                    objBookIssue.SaveFilesFromBookIssue(model);
+                    model.IssueId = objBookIssue.IssueId;
+                    objBookIssue.SaveFilesFromBookIssue(model); 
                 }
 
                 return Ok(new { success = isSuccess });
