@@ -83,13 +83,11 @@ D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-AP
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\obj\Debug\Lib-Mang.73F6AEA0.Up2Date
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\obj\Debug\Lib-Mang-Sys-API.dll
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\obj\Debug\Lib-Mang-Sys-API.pdb
-D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\LibraryManagementSystemClassLibrary.dll
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\System.IdentityModel.Tokens.Jwt.dll
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Microsoft.IdentityModel.Tokens.dll
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Microsoft.Practices.ObjectBuilder2.dll
-D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\LibraryManagementSystemClassLibrary.pdb
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\System.IdentityModel.Tokens.Jwt.xml
 D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Microsoft.IdentityModel.Tokens.xml
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Lib-Mang-Sys-API.dll.config
@@ -192,3 +190,7 @@ C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Microsoft.IdentityModel.Logg
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Microsoft.IdentityModel.Logging.xml
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\malis\Desktop\LMS-API\Lib-Mang-Sys-API\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Microsoft.IdentityModel.Logging.dll
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Microsoft.IdentityModel.Logging.xml
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Lib-Mang-Sys-API\bin\Microsoft.IdentityModel.JsonWebTokens.xml

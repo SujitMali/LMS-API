@@ -13,6 +13,7 @@ using Newtonsoft.Json;
 namespace Lib_Mang_Sys_API.Controllers
 {
     [JwtAuthorize]
+    [AuthorizeRole("Admin")]
     public class BookIssueController : ApiController
     {
         [HttpGet]

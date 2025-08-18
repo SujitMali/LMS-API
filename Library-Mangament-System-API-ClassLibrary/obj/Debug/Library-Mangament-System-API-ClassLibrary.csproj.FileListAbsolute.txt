@@ -24,3 +24,7 @@ C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Deb
 C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\Microsoft.IdentityModel.Logging.xml
 C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Library-Mangament-System-API-ClassLibrary\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Library-Mangament-System-API-ClassLibrary\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Library-Mangament-System-API-ClassLibrary\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\OneDrive - Rheal Software Pvt Ltd\Desktop\ASP.net MVC\Project\Lib-Mang-Sys-API-Solution\Library-Mangament-System-API-ClassLibrary\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
