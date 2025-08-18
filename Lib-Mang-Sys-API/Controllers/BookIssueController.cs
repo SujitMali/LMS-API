@@ -12,6 +12,7 @@ using Newtonsoft.Json;
 
 namespace Lib_Mang_Sys_API.Controllers
 {
+    [JwtAuthorize]
     public class BookIssueController : ApiController
     {
         [HttpGet]
@@ -42,6 +43,7 @@ namespace Lib_Mang_Sys_API.Controllers
 
 
         [HttpPost]
+
         public HttpResponseMessage GetBookIssueList(BookIssueModel model)
         {
             HttpResponseMessage result = null;
@@ -172,7 +174,6 @@ namespace Lib_Mang_Sys_API.Controllers
                 }
 
                 byte[] fileBytes = File.ReadAllBytes(physicalPath);
-                //result = new HttpResponseMessage(HttpStatusCode.OK) { Content = (fileBytes) };
                 result = new HttpResponseMessage(HttpStatusCode.OK) { Content = new ByteArrayContent(fileBytes) };
 
                 return result;

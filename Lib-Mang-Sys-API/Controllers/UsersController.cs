@@ -10,28 +10,31 @@ namespace Lib_Mang_Sys_API.Controllers
     {
 
 
-        [HttpPost]
-        public HttpResponseMessage ValidateUserLogin(UsersModel model)
-        {
-            Users objUsersDal = new Users();
-            UsersModel tempUser = objUsersDal.ValidateUser(model);
-
-            if (tempUser != null)
+            [HttpPost]
+            public HttpResponseMessage ValidateUserLogin(UsersModel model)
             {
-                return Request.CreateResponse(HttpStatusCode.OK, new
+                Users objUsersDal = new Users();
+                UsersModel tempUser = objUsersDal.ValidateUser(model);
+
+                if (tempUser != null)
                 {
-                    message = "Login successful",
-                    user = tempUser
+                    var token = JwtTokenManager.GenerateToken(tempUser);
+
+                    return Request.CreateResponse(HttpStatusCode.OK, new
+                    {
+                        message = "Login successful",
+                        user = tempUser,
+                        token
+                    });
+                }
+
+                return Request.CreateResponse(HttpStatusCode.Unauthorized, new
+                {
+                    message = "Invalid username or password"
                 });
+
+
             }
-
-            return Request.CreateResponse(HttpStatusCode.Unauthorized, new
-            {
-                message = "Invalid username or password"
-            });
-
-
-        }
     }
 }
 

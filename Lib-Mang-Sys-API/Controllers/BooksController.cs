@@ -10,6 +10,7 @@ using Publishers = Library_Mangament_System_API_ClassLibrary.DAL.Publishers;
 
 namespace Lib_Mang_Sys_API.Controllers
 {
+    [JwtAuthorize]
     public class BooksController : ApiController
     {
         [HttpGet]

@@ -16,3 +16,11 @@ C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\obj\Deb
 C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\obj\Debug\Library-.D6EEEAB5.Up2Date
 C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\obj\Debug\Library-Mangament-System-API-ClassLibrary.dll
 C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\obj\Debug\Library-Mangament-System-API-ClassLibrary.pdb
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\malis\Desktop\LMS-API\Library-Mangament-System-API-ClassLibrary\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
