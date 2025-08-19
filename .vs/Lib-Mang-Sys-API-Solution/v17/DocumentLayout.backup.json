@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\malis\\Desktop\\LMS-API\\",
+  "WorkspaceRootPath": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|c:\\users\\malis\\desktop\\lms-api\\lib-mang-sys-api\\filters\\authorizeroleattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|solutionrelative:lib-mang-sys-api\\filters\\authorizeroleattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2BD41E0-0F06-4AB6-9DBA-558A6FF4B59C}|Library-Mangament-System-API-ClassLibrary\\Library-Mangament-System-API-ClassLibrary.csproj|D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\library-mangament-system-api-classlibrary\\helpers\\jwttokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2BD41E0-0F06-4AB6-9DBA-558A6FF4B59C}|Library-Mangament-System-API-ClassLibrary\\Library-Mangament-System-API-ClassLibrary.csproj|solutionrelative:library-mangament-system-api-classlibrary\\helpers\\jwttokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|C:\\Users\\malis\\Desktop\\LMS-API\\lib-mang-sys-api\\filters\\jwtauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\lib-mang-sys-api\\filters\\jwtauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|solutionrelative:lib-mang-sys-api\\filters\\jwtauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|C:\\Users\\malis\\Desktop\\LMS-API\\lib-mang-sys-api\\controllers\\bookissuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|solutionrelative:lib-mang-sys-api\\controllers\\bookissuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|d:\\onedrive - rheal software pvt ltd\\desktop\\asp.net mvc\\project\\lib-mang-sys-api-solution\\lib-mang-sys-api\\filters\\authorizeroleattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|solutionrelative:lib-mang-sys-api\\filters\\authorizeroleattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|C:\\Users\\malis\\Desktop\\LMS-API\\lib-mang-sys-api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\lib-mang-sys-api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|solutionrelative:lib-mang-sys-api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|C:\\Users\\malis\\Desktop\\LMS-API\\lib-mang-sys-api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\lib-mang-sys-api\\controllers\\bookissuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|solutionrelative:lib-mang-sys-api\\controllers\\bookissuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\lib-mang-sys-api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|solutionrelative:lib-mang-sys-api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|C:\\Users\\malis\\Desktop\\LMS-API\\lib-mang-sys-api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\lib-mang-sys-api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36013BDD-37C7-4111-8AC3-5E493DA34ED0}|Lib-Mang-Sys-API\\Lib-Mang-Sys-API.csproj|solutionrelative:lib-mang-sys-api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2BD41E0-0F06-4AB6-9DBA-558A6FF4B59C}|Library-Mangament-System-API-ClassLibrary\\Library-Mangament-System-API-ClassLibrary.csproj|C:\\Users\\malis\\Desktop\\LMS-API\\library-mangament-system-api-classlibrary\\helpers\\jwttokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2BD41E0-0F06-4AB6-9DBA-558A6FF4B59C}|Library-Mangament-System-API-ClassLibrary\\Library-Mangament-System-API-ClassLibrary.csproj|solutionrelative:library-mangament-system-api-classlibrary\\helpers\\jwttokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,12 +69,16 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthorizeRoleAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\malis\\Desktop\\LMS-API\\Lib-Mang-Sys-API\\Filters\\AuthorizeRoleAttribute.cs",
+              "DocumentMoniker": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Lib-Mang-Sys-API\\Filters\\AuthorizeRoleAttribute.cs",
               "RelativeDocumentMoniker": "Lib-Mang-Sys-API\\Filters\\AuthorizeRoleAttribute.cs",
-              "ToolTip": "C:\\Users\\malis\\Desktop\\LMS-API\\Lib-Mang-Sys-API\\Filters\\AuthorizeRoleAttribute.cs",
+              "ToolTip": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Lib-Mang-Sys-API\\Filters\\AuthorizeRoleAttribute.cs",
               "RelativeToolTip": "Lib-Mang-Sys-API\\Filters\\AuthorizeRoleAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -82,28 +86,25 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\malis\\Desktop\\LMS-API\\Lib-Mang-Sys-API\\Controllers\\BooksController.cs",
+              "DocumentMoniker": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Lib-Mang-Sys-API\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "Lib-Mang-Sys-API\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\malis\\Desktop\\LMS-API\\Lib-Mang-Sys-API\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Lib-Mang-Sys-API\\Controllers\\BooksController.cs",
               "RelativeToolTip": "Lib-Mang-Sys-API\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAwGAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T16:35:52.605Z"
+              "WhenOpened": "2025-08-18T16:35:52.605Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\malis\\Desktop\\LMS-API\\Lib-Mang-Sys-API\\Web.config",
+              "DocumentMoniker": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Lib-Mang-Sys-API\\Web.config",
               "RelativeDocumentMoniker": "Lib-Mang-Sys-API\\Web.config",
-              "ToolTip": "C:\\Users\\malis\\Desktop\\LMS-API\\Lib-Mang-Sys-API\\Web.config",
+              "ToolTip": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Lib-Mang-Sys-API\\Web.config",
               "RelativeToolTip": "Lib-Mang-Sys-API\\Web.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -112,11 +113,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\malis\\Desktop\\LMS-API\\Lib-Mang-Sys-API\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Lib-Mang-Sys-API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Lib-Mang-Sys-API\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\malis\\Desktop\\LMS-API\\Lib-Mang-Sys-API\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Lib-Mang-Sys-API\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Lib-Mang-Sys-API\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -124,39 +125,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BookIssueController.cs",
-              "DocumentMoniker": "C:\\Users\\malis\\Desktop\\LMS-API\\Lib-Mang-Sys-API\\Controllers\\BookIssueController.cs",
+              "DocumentMoniker": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Lib-Mang-Sys-API\\Controllers\\BookIssueController.cs",
               "RelativeDocumentMoniker": "Lib-Mang-Sys-API\\Controllers\\BookIssueController.cs",
-              "ToolTip": "C:\\Users\\malis\\Desktop\\LMS-API\\Lib-Mang-Sys-API\\Controllers\\BookIssueController.cs",
+              "ToolTip": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Lib-Mang-Sys-API\\Controllers\\BookIssueController.cs",
               "RelativeToolTip": "Lib-Mang-Sys-API\\Controllers\\BookIssueController.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAswBgAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwLEAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:17:24.216Z"
+              "WhenOpened": "2025-08-18T13:17:24.216Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "JwtTokenManager.cs",
-              "DocumentMoniker": "C:\\Users\\malis\\Desktop\\LMS-API\\Library-Mangament-System-API-ClassLibrary\\Helpers\\JwtTokenManager.cs",
+              "DocumentMoniker": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Library-Mangament-System-API-ClassLibrary\\Helpers\\JwtTokenManager.cs",
               "RelativeDocumentMoniker": "Library-Mangament-System-API-ClassLibrary\\Helpers\\JwtTokenManager.cs",
-              "ToolTip": "C:\\Users\\malis\\Desktop\\LMS-API\\Library-Mangament-System-API-ClassLibrary\\Helpers\\JwtTokenManager.cs",
+              "ToolTip": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Library-Mangament-System-API-ClassLibrary\\Helpers\\JwtTokenManager.cs",
               "RelativeToolTip": "Library-Mangament-System-API-ClassLibrary\\Helpers\\JwtTokenManager.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwBgAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:17:00.738Z"
+              "WhenOpened": "2025-08-18T13:17:00.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "JwtAuthorizeAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\malis\\Desktop\\LMS-API\\Lib-Mang-Sys-API\\Filters\\JwtAuthorizeAttribute.cs",
+              "DocumentMoniker": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Lib-Mang-Sys-API\\Filters\\JwtAuthorizeAttribute.cs",
               "RelativeDocumentMoniker": "Lib-Mang-Sys-API\\Filters\\JwtAuthorizeAttribute.cs",
-              "ToolTip": "C:\\Users\\malis\\Desktop\\LMS-API\\Lib-Mang-Sys-API\\Filters\\JwtAuthorizeAttribute.cs",
+              "ToolTip": "D:\\OneDrive - Rheal Software Pvt Ltd\\Desktop\\ASP.net MVC\\Project\\Lib-Mang-Sys-API-Solution\\Lib-Mang-Sys-API\\Filters\\JwtAuthorizeAttribute.cs",
               "RelativeToolTip": "Lib-Mang-Sys-API\\Filters\\JwtAuthorizeAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T11:22:11.46Z"
+              "WhenOpened": "2025-08-18T11:22:11.46Z",
+              "EditorCaption": ""
             }
           ]
         }
