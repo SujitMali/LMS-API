@@ -25,7 +25,7 @@
                         new Claim(ClaimTypes.Role, user.UserTypeName),
                         new Claim("IdentityProvider", "JWT")
                     }),
-                Expires = DateTime.UtcNow.AddMinutes(20),
+                Expires = DateTime.UtcNow.AddMinutes(1),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);

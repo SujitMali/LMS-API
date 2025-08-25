@@ -44,7 +44,6 @@ namespace Lib_Mang_Sys_API.Controllers
 
 
         [HttpPost]
-
         public HttpResponseMessage GetBookIssueList(BookIssueModel model)
         {
             HttpResponseMessage result = null;
